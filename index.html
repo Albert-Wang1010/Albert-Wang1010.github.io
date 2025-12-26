@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Albert Wang | EE Portfolio</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 48px 20px; }
+    h1 { margin: 0 0 8px; font-size: 40px; }
+    .sub { color: #555; margin: 0 0 24px; }
+    .links a { margin-right: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin-top: 24px; }
+    .card { border: 1px solid #e5e5e5; border-radius: 14px; padding: 16px; }
+    .card h3 { margin: 0 0 6px; }
+    .meta { color: #666; font-size: 14px; margin: 0 0 10px; }
+    footer { color:#777; margin-top: 48px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Albert Wang</h1>
+    <p class="sub">Electrical Engineering @ Columbia (Bates → Columbia 3+2). Interests: VLSI, analog design, verification.</p>
+
+    <div class="links">
+      <a href="YOUR_RESUME_LINK_HERE">Resume</a>
+      <a href="YOUR_LINKEDIN_LINK_HERE">LinkedIn</a>
+      <a href="YOUR_GITHUB_LINK_HERE">GitHub</a>
+      <a href="mailto:YOUR_EMAIL_HERE">Email</a>
+    </div>
+
+    <h2 style="margin-top:36px;">Featured Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>TSMC 65nm Microprocessor (Full Custom)</h3>
+        <p class="meta">Cadence Virtuoso • DRC/LVS • Post-layout sims</p>
+        <p>Transistor-level schematics + layout integration of datapath/control blocks; validated functionality post-extraction.</p>
+        <a href="PROJECT_LINK_OR_PDF">Details</a>
+      </div>
+
+      <div class="card">
+        <h3>OTA Sizing + Validation</h3>
+        <p class="meta">Analog design • stability • load variation</p>
+        <p>Spec-driven sizing, simulation results, and tradeoffs (gain/UGB/PM/power) with clear plots.</p>
+        <a href="PROJECT_LINK">Details</a>
+      </div>
+
+      <div class="card">
+        <h3>FIR Filter (Verilog + Synthesis)</h3>
+        <p class="meta">RTL • testbench • synthesis reports</p>
+        <p>Designed and verified a FIR core; show waveforms + utilization/timing from synthesis.</p>
+        <a href="PROJECT_LINK">Details</a>
+      </div>
+
+      <div class="card">
+        <h3>Photonic Crystals (NSF REU)</h3>
+        <p class="meta">MATLAB/Python • modeling • publication</p>
+        <p>High-accuracy photonic crystal simulations with large speedup; includes paper and talk links.</p>
+        <a href="PAPER_LINK">Publication</a>
+      </div>
+
+      <div class="card">
+        <h3>nEXO / SiPM PDE Study</h3>
+        <p class="meta">data analysis • detectors • APS presentation</p>
+        <p>Analysis pipeline + results; include poster/talk link and one key plot.</p>
+        <a href="PRESENTATION_LINK">Presentation</a>
+      </div>
+    </div>
+
+    <footer>
+      © <span id="y"></span> Albert Wang
+    </footer>
+  </div>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
