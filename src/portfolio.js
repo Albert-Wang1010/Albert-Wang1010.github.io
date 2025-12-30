@@ -147,7 +147,7 @@ const openSource = {
 
 // Projects Section (use this for BOTH projects + research)
 const bigProjects = {
-  title: "Featured Work",
+  title: "Selected Work",
   subtitle: "Projects & Research",
   projects: [
     {
