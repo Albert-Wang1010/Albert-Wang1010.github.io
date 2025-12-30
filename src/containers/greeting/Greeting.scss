@@ -51,24 +51,24 @@
 
 .greeting-image-div {
   display: flex;
-  justify-content: center;   // center horizontally
-  align-items: center;       // center vertically
+  justify-content: center; // center horizontally
+  align-items: center; // center vertically
 }
 
 .greeting-image-div > * {
   width: 100%;
-  max-width: 440px;        
+  max-width: 440px;
 }
 /* Fix stacking / small screens */
 @media (max-width: 768px) {
   .greeting-image-div {
-    align-items: flex-start;   // key: stop vertical centering on mobile
-    padding-top: 12px;         // give headroom
+    align-items: flex-start; // key: stop vertical centering on mobile
+    padding-top: 12px; // give headroom
     margin-top: 8px;
   }
 
   .greeting-image-div > * {
-    max-width: 360px;          // slightly smaller so it won’t hit buttons
+    max-width: 360px; // slightly smaller so it won’t hit buttons
   }
 }
 

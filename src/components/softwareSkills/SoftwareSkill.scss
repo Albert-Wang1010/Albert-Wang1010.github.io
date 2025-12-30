@@ -4,12 +4,12 @@
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  margin: 0;                 /* remove weird top/bottom spacing */
+  margin: 0; /* remove weird top/bottom spacing */
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;   /* center the whole row */
+  justify-content: center; /* center the whole row */
   align-items: flex-start;
-  gap: 22px;                 /* controls spacing between icons */
+  gap: 22px; /* controls spacing between icons */
 }
 
 /* each LI */
@@ -17,13 +17,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 110px;              /* keeps labels aligned + spacing consistent */
-  margin: 0;                 /* IMPORTANT: remove margin-right approach */
+  width: 110px; /* keeps labels aligned + spacing consistent */
+  margin: 0; /* IMPORTANT: remove margin-right approach */
 }
 
 /* icon */
 .software-skill-inline > i {
-  font-size: 42px;           /* control icon size here */
+  font-size: 42px; /* control icon size here */
   color: $subTitle;
 }
 
@@ -34,7 +34,7 @@
   font-size: 12px;
   line-height: 1.2;
   text-align: center;
-  white-space: normal;       /* allow wrapping if needed */
+  white-space: normal; /* allow wrapping if needed */
 }
 
 /* hover */

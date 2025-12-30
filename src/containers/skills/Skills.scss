@@ -17,14 +17,14 @@
 
 .skills-image-div {
   display: flex;
-  justify-content: center;   /* center horizontally */
-  align-items: center;       /* center vertically */
-  padding-right: 24px;       /* pushes the image a bit toward the middle */
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+  padding-right: 24px; /* pushes the image a bit toward the middle */
 }
 
 .skills-image-div > img {
   width: 20%;
-  max-width: 620px;          /* adjust size */
+  max-width: 620px; /* adjust size */
   height: auto;
   margin: 0 auto;
 }

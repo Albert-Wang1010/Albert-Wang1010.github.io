@@ -45,23 +45,32 @@ const skillsSection = {
   title: "Focus Areas",
   subTitle: "Design • Verification • Research",
   skills: [
-    emoji("⚡ Full-custom VLSI: schematic capture, layout, DRC/LVS, post-extraction simulation"),
-    emoji("⚡ Physical design awareness: parasitics, layout-dependent effects, post-layout validation"),
-    emoji("⚡ Analog design: OTA sizing, stability/phase margin, tradeoffs (gain/UGB/noise/power)"),
-    emoji("⚡ Digital/RTL: SystemVerilog/Verilog design, verification, synthesis & timing"),
-    emoji("⚡ Research computing: photonic simulation and detector data analysis (MATLAB/Python)")
+    emoji(
+      "⚡ Full-custom VLSI: schematic capture, layout, DRC/LVS, post-extraction simulation"
+    ),
+    emoji(
+      "⚡ Physical design awareness: parasitics, layout-dependent effects, post-layout validation"
+    ),
+    emoji(
+      "⚡ Analog design: OTA sizing, stability/phase margin, tradeoffs (gain/UGB/noise/power)"
+    ),
+    emoji(
+      "⚡ Digital/RTL: SystemVerilog/Verilog design, verification, synthesis & timing"
+    ),
+    emoji(
+      "⚡ Research computing: photonic simulation and detector data analysis (MATLAB/Python)"
+    )
   ],
   softwareSkills: [
-    { skillName: "Cadence Virtuoso", fontAwesomeClassname: "fas fa-microchip" },
-    { skillName: "Verilog / SystemVerilog", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "MATLAB", fontAwesomeClassname: "fas fa-square-root-alt" },
-    { skillName: "Git / GitHub", fontAwesomeClassname: "fab fa-github" },
-    { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" }
+    {skillName: "Cadence Virtuoso", fontAwesomeClassname: "fas fa-microchip"},
+    {skillName: "Verilog / SystemVerilog", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "MATLAB", fontAwesomeClassname: "fas fa-square-root-alt"},
+    {skillName: "Git / GitHub", fontAwesomeClassname: "fab fa-github"},
+    {skillName: "Linux", fontAwesomeClassname: "fab fa-linux"}
   ],
   display: true
 };
-
 
 // Education Section
 const educationInfo = {
@@ -91,9 +100,9 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: false,
   experience: [
-    { Stack: "VLSI / Layout", progressPercentage: "85%" },
-    { Stack: "RTL / Verification", progressPercentage: "75%" },
-    { Stack: "Research / Modeling", progressPercentage: "80%" }
+    {Stack: "VLSI / Layout", progressPercentage: "85%"},
+    {Stack: "RTL / Verification", progressPercentage: "75%"},
+    {Stack: "Research / Modeling", progressPercentage: "80%"}
   ],
   displayCodersrank: false
 };
@@ -103,31 +112,31 @@ const workExperiences = {
   display: true,
   experience: [
     {
-    role: "Hardware Security Intern",
-    company: "eMemory Technology Inc.",
-    companylogo: require("./assets/images/ememoryLogo.png"),
-    date: "July 2025 – September 2025",
-    desc: "Semiconductor IP company specializing in embedded non-volatile memory (eNVM) for SoCs—enabling on-chip secure storage and configuration.",
-    descBullets: [
-      "Mapped LunaSH/LunaCM and PKCS#11 semantics into a PUF-backed HSM interface framework.", 
-      "Co-authored SH/CM APIs for roles/partitions, NTLS/STC, HA, and audit/time.",
-      "Aligned workflows to FIPS 140-3 expectations; identified compliance and test points.",     
-      "Supported prior-art/patent landscaping to differentiate design choices."
-    ]
-  },
-  {
-    role: "Collegiate MEP Intern",
-    company: "LEAF Engineers",
-    companylogo: require("./assets/images/leafLogo.png"),
-    date: "May 2025 – July 2025",
-    desc: "MEP engineering consultancy under PBK Architects, providing electrical power and lighting design services for commercial and institutional buildings.",
-    descBullets: [
-      "Developed NEC-compliant panel schedules and circuiting for large-scale building electrical systems.",
-      "Performed load calculations, feeder/breaker sizing, and phase balancing.",
-      "Standardized panel and circuit naming to improve drawing consistency and design reviews."
-    ]    
-  }
-]
+      role: "Hardware Security Intern",
+      company: "eMemory Technology Inc.",
+      companylogo: require("./assets/images/ememoryLogo.png"),
+      date: "July 2025 – September 2025",
+      desc: "Semiconductor IP company specializing in embedded non-volatile memory (eNVM) for SoCs—enabling on-chip secure storage and configuration.",
+      descBullets: [
+        "Mapped LunaSH/LunaCM and PKCS#11 semantics into a PUF-backed HSM interface framework.",
+        "Co-authored SH/CM APIs for roles/partitions, NTLS/STC, HA, and audit/time.",
+        "Aligned workflows to FIPS 140-3 expectations; identified compliance and test points.",
+        "Supported prior-art/patent landscaping to differentiate design choices."
+      ]
+    },
+    {
+      role: "Collegiate MEP Intern",
+      company: "LEAF Engineers",
+      companylogo: require("./assets/images/leafLogo.png"),
+      date: "May 2025 – July 2025",
+      desc: "MEP engineering consultancy under PBK Architects, providing electrical power and lighting design services for commercial and institutional buildings.",
+      descBullets: [
+        "Developed NEC-compliant panel schedules and circuiting for large-scale building electrical systems.",
+        "Performed load calculations, feeder/breaker sizing, and phase balancing.",
+        "Standardized panel and circuit naming to improve drawing consistency and design reviews."
+      ]
+    }
+  ]
 };
 
 // Disable GitHub pinned open-source section (keeps site clean)
@@ -148,8 +157,8 @@ const bigProjects = {
       projectDesc:
         "Transistor-level schematics + full-custom layout for datapath/control blocks. DRC/LVS clean and validated with post-extraction simulations.",
       footerLink: [
-        { name: "Write-up", url: "PASTE_LINK_HERE" },
-        { name: "Images", url: "PASTE_LINK_HERE" }
+        {name: "Write-up", url: "PASTE_LINK_HERE"},
+        {name: "Images", url: "PASTE_LINK_HERE"}
       ]
     },
     {
@@ -157,7 +166,7 @@ const bigProjects = {
       projectName: "Analog OTA Sizing + Stability Validation",
       projectDesc:
         "Spec-driven OTA sizing with simulation-based validation (gain/UGB/phase margin/power/load). Includes key plots + design notes.",
-      footerLink: [{ name: "Design Notes", url: "PASTE_LINK_HERE" }]
+      footerLink: [{name: "Design Notes", url: "PASTE_LINK_HERE"}]
     },
     {
       image: require("./assets/images/projectPlaceholder.png"),
@@ -165,8 +174,8 @@ const bigProjects = {
       projectDesc:
         "Designed and verified a FIR filter in Verilog with a testbench; synthesized and checked timing/resource utilization.",
       footerLink: [
-        { name: "GitHub Repo", url: "PASTE_LINK_HERE" },
-        { name: "Report", url: "PASTE_LINK_HERE" }
+        {name: "GitHub Repo", url: "PASTE_LINK_HERE"},
+        {name: "Report", url: "PASTE_LINK_HERE"}
       ]
     },
     {
@@ -175,8 +184,14 @@ const bigProjects = {
       projectDesc:
         "Projection-based learning approach for high-efficiency photonic crystal simulations; conference publication + presentation.",
       footerLink: [
-        { name: "Publication", url: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13129/3028208/Fast-simulations-with-high-accuracy-for-photonic-crystals-and-quantum/10.1117/12.3028208.full" },
-        { name: "Presentation", url: "https://docs.google.com/presentation/d/12DaeQiBLaeaPHDg6b53xSWewwh2YWmKdRCnBFwUCfuM/edit?usp=sharing" }
+        {
+          name: "Publication",
+          url: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13129/3028208/Fast-simulations-with-high-accuracy-for-photonic-crystals-and-quantum/10.1117/12.3028208.full"
+        },
+        {
+          name: "Presentation",
+          url: "https://docs.google.com/presentation/d/12DaeQiBLaeaPHDg6b53xSWewwh2YWmKdRCnBFwUCfuM/edit?usp=sharing"
+        }
       ]
     },
     {
@@ -185,8 +200,14 @@ const bigProjects = {
       projectDesc:
         "Data analysis pipeline and experimental characterization; presented results at APS April 2024.",
       footerLink: [
-        { name: "Presentation", url: "https://docs.google.com/presentation/d/1UC1qolbfMkPhdJtLQiW1PZjwpBana1ksa7tw2a510cA/edit?usp=sharing" },
-        { name: "Report (PDF)", url: "/files/SPE_and_CA_characterisation_with_LED.pdf" }
+        {
+          name: "Presentation",
+          url: "https://docs.google.com/presentation/d/1UC1qolbfMkPhdJtLQiW1PZjwpBana1ksa7tw2a510cA/edit?usp=sharing"
+        },
+        {
+          name: "Report (PDF)",
+          url: "/files/SPE_and_CA_characterisation_with_LED.pdf"
+        }
       ]
     }
   ],
@@ -204,9 +225,7 @@ const achievementSection = {
         "Fast simulations with high accuracy for photonic crystals (projection-based learning).",
       image: require("./assets/images/awardPlaceholder.png"),
       imageAlt: "Publication",
-      footerLink: [
-        { name: "Paper", url: "PASTE_SPIE_LINK_HERE" }
-      ]
+      footerLink: [{name: "Paper", url: "PASTE_SPIE_LINK_HERE"}]
     },
     {
       title: "APS April 2024 — Research Presentation (nEXO)",
@@ -214,9 +233,7 @@ const achievementSection = {
         "Presented SiPM PDE characterization work and analysis results.",
       image: require("./assets/images/awardPlaceholder.png"),
       imageAlt: "APS",
-      footerLink: [
-        { name: "Slides/Poster", url: "PASTE_APS_LINK_HERE" }
-      ]
+      footerLink: [{name: "Slides/Poster", url: "PASTE_APS_LINK_HERE"}]
     },
     {
       title: "NSF HPC REU Awardee",
@@ -231,9 +248,9 @@ const achievementSection = {
 };
 
 // Blogs / Talks / Podcast — disable to keep the site clean
-const blogSection = { display: false };
-const talkSection = { display: false };
-const podcastSection = { display: false };
+const blogSection = {display: false};
+const talkSection = {display: false};
+const podcastSection = {display: false};
 
 // Resume Section
 const resumeSection = {
@@ -245,7 +262,8 @@ const resumeSection = {
 // Contact
 const contactInfo = {
   title: emoji("Contact ☎️"),
-  subtitle: "Want to chat about internships, design projects, or research? Email works best.",
+  subtitle:
+    "Want to chat about internships, design projects, or research? Email works best.",
   number: "",
   email_address: "aw3741@columbia.edu"
 };
