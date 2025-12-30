@@ -42,7 +42,7 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 <Button
                   text="View my resume"
-                  href="/files/resume.pdf"
+                  href="/files/Resume.pdf"
                   newTab={true}
                 />
               </div>
