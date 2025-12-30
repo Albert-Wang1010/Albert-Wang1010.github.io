@@ -1,0 +1,59 @@
+@import "../../_globalColor";
+
+/* the UL */
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;                 /* remove weird top/bottom spacing */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* center the whole row */
+  align-items: flex-start;
+  gap: 22px;                 /* controls spacing between icons */
+}
+
+/* each LI */
+.software-skill-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 110px;              /* keeps labels aligned + spacing consistent */
+  margin: 0;                 /* IMPORTANT: remove margin-right approach */
+}
+
+/* icon */
+.software-skill-inline > i {
+  font-size: 42px;           /* control icon size here */
+  color: $subTitle;
+}
+
+/* label */
+.software-skill-inline > p {
+  margin: 8px 0 0;
+  color: $subTitle;
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+  white-space: normal;       /* allow wrapping if needed */
+}
+
+/* hover */
+.software-skill-inline > i:hover {
+  color: $skillsColor;
+}
+.software-skill-inline > i:hover ~ p {
+  color: $skillsColor;
+}
+
+/* optional: tighten on small screens */
+@media (max-width: 768px) {
+  .dev-icons {
+    gap: 16px;
+  }
+  .software-skill-inline {
+    width: 95px;
+  }
+  .software-skill-inline > i {
+    font-size: 38px;
+  }
+}

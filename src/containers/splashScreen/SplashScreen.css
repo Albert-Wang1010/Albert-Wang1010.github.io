@@ -1,0 +1,24 @@
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.splash-animation-container {
+  height: 50vh;
+}
+
+.splash-title-container {
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+.splash-title {
+  font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  padding: 0 10px;
+}
