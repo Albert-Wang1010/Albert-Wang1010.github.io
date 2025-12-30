@@ -25,3 +25,7 @@ yarn-error.log*
 #user generated content
 public/profile.json
 public/blogs.json
+public/files/ALD_Final_Proj.pdf
+
+# Ignore PDF files in public/files
+public/files/*.pdf
