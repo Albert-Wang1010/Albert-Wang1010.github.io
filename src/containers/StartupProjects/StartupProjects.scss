@@ -65,9 +65,9 @@
 }
 
 .project-card-footer span.project-tag {
-  background: $buttonColor;  // Filled by default
+  background: $buttonColor; // Filled by default
   border: 2px solid $buttonColor;
-  color: $lightBackground3;  // White text by default
+  color: $lightBackground3; // White text by default
   vertical-align: middle;
   align-items: center;
   border-radius: 4px;
@@ -84,8 +84,8 @@
 }
 
 .project-card-footer span.project-tag:hover {
-  background: transparent;  // Outlined on hover
-  color: $buttonColor;  // Blue text on hover
+  background: transparent; // Outlined on hover
+  color: $buttonColor; // Blue text on hover
 }
 
 @media (max-width: 768px) {

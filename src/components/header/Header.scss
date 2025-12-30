@@ -68,11 +68,11 @@
   font-variant-ligatures: none;
   -webkit-font-variant-ligatures: none;
   padding: 0 10px;
-  color: $textColor;  // Add this line - makes it black in light mode
+  color: $textColor; // Add this line - makes it black in light mode
 }
 
 .dark-menu .logo-name {
-  color: $textColorDark;  // Add this section - keeps it white in dark mode
+  color: $textColorDark; // Add this section - keeps it white in dark mode
 }
 /* menu */
 

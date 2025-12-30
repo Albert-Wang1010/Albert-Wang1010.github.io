@@ -20,20 +20,20 @@
   justify-content: center;
   align-items: center;
   padding-right: 24px;
-  max-width: 550px;  // Add this - same as contact section
-  width: 100%;       // Add this
+  max-width: 550px; // Add this - same as contact section
+  width: 100%; // Add this
 }
 
 .skills-image-div > img {
-  width: 100%;       // Change from 20%
-  max-width: 100%;   // Change from 620px
+  width: 100%; // Change from 20%
+  max-width: 100%; // Change from 620px
   height: auto;
   margin: 0 auto;
 }
 
 // Add this for the Lottie animation
 .skills-image-div > div {
-  max-width: 550px;  // Same as contact
+  max-width: 550px; // Same as contact
   width: 100%;
 }
 
