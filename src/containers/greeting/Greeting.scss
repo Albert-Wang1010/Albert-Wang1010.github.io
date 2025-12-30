@@ -15,6 +15,7 @@
 
 .greeting-main {
   display: flex;
+  
 }
 
 .subTitle {
@@ -27,7 +28,7 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .button-greeting-div {
@@ -140,6 +141,7 @@
   }
   .greeting-main {
     display: block;
+    padding-bottom: 10rem;
   }
   .greeting-image-div {
     height: 256px;

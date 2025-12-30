@@ -261,7 +261,7 @@ const resumeSection = {
 
 // Contact
 const contactInfo = {
-  title: emoji("Contact ☎️"),
+  title: emoji("Contact"),
   subtitle:
     "Want to chat about internships, design projects, or research? Email works best.",
   number: "",

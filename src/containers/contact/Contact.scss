@@ -45,11 +45,22 @@
   margin-top: 4rem;
 }
 
+.contact-image-div {
+  max-width: 500px;  // Add this to limit the container
+  width: 100%;
+}
+
 .contact-image-div > img {
   max-width: 100%;
   height: auto;
   margin-left: 1.5rem;
   margin-top: -4rem;
+}
+
+// Add this for the Lottie animation
+.contact-image-div > div {
+  max-width: 500px;  // Limit Lottie animation size
+  width: 100%;
 }
 
 /* Media Query */

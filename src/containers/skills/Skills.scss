@@ -12,21 +12,29 @@
 
 .skills-main-div > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .skills-image-div {
   display: flex;
-  justify-content: center; /* center horizontally */
-  align-items: center; /* center vertically */
-  padding-right: 24px; /* pushes the image a bit toward the middle */
+  justify-content: center;
+  align-items: center;
+  padding-right: 24px;
+  max-width: 550px;  // Add this - same as contact section
+  width: 100%;       // Add this
 }
 
 .skills-image-div > img {
-  width: 20%;
-  max-width: 620px; /* adjust size */
+  width: 100%;       // Change from 20%
+  max-width: 100%;   // Change from 620px
   height: auto;
   margin: 0 auto;
+}
+
+// Add this for the Lottie animation
+.skills-image-div > div {
+  max-width: 550px;  // Same as contact
+  width: 100%;
 }
 
 .skills-heading {
