@@ -82,7 +82,7 @@ const educationInfo = {
       logo: require("./assets/images/columbiaLogo.png"),
       subHeader: "B.S. in Electrical Engineering",
       duration: "New York, NY • Aug 2024 – May 2026",
-      desc: "Focus on analog circuits, VLSI, and digital logic design.",
+      desc: "Focus on analog circuits, VLSI, and digital logic design / Dean's List.",
       descBullets: []
     },
     {
@@ -152,34 +152,34 @@ const bigProjects = {
   projects: [
     {
       // Replace with a screenshot image later if you want
-      image: require("./assets/images/projectPlaceholder.png"),
-      projectName: "65nm Full-Custom Microprocessor (TSMC 65nm)",
+      image: require("./assets/images/layoutLogo.png"),
+      projectName: "65nm Full-Custom Microprocessor",
       projectDesc:
-        "Transistor-level schematics + full-custom layout for datapath/control blocks. DRC/LVS clean and validated with post-extraction simulations.",
+        "Full-custom 65nm microprocessor with transistor-level design of ALU, shifter, PLA, SRAM, and bus architecture. Complete layout verified with DRC/LVS and post-extraction simulation.",
       footerLink: [
-        {name: "Write-up", url: "PASTE_LINK_HERE"},
-        {name: "Images", url: "PASTE_LINK_HERE"}
+        {name: "GitHub Repo", url: "PASTE_LINK_HERE"},
+        {name: "Report (PDF)", url: "PASTE_LINK_HERE"}
       ]
     },
     {
-      image: require("./assets/images/projectPlaceholder.png"),
+      image: require("./assets/images/otaThumb.png"),
       projectName: "Analog OTA Sizing + Stability Validation",
       projectDesc:
         "Spec-driven OTA sizing with simulation-based validation (gain/UGB/phase margin/power/load). Includes key plots + design notes.",
-      footerLink: [{name: "Design Notes", url: "PASTE_LINK_HERE"}]
+      footerLink: [{name: "Report (PDF)", url: "PASTE_LINK_HERE"}]
     },
     {
-      image: require("./assets/images/projectPlaceholder.png"),
+      image: require("./assets/images/waveformThumb.png"),
       projectName: "FIR Filter Core (Verilog) + Synthesis",
       projectDesc:
-        "Designed and verified a FIR filter in Verilog with a testbench; synthesized and checked timing/resource utilization.",
+        "Designed and verified a FIR filter in Verilog with testbench; synthesized and optimized for timing/resource utilization.",
       footerLink: [
         {name: "GitHub Repo", url: "PASTE_LINK_HERE"},
-        {name: "Report", url: "PASTE_LINK_HERE"}
+        {name: "Report (PDF)", url: "/files/ALD_Final_Proj.pdf"}
       ]
     },
     {
-      image: require("./assets/images/projectPlaceholder.png"),
+      image: require("./assets/images/photonicThumb.png"),
       projectName: "Photonic Crystals: Fast, Accurate Simulations (NSF REU)",
       projectDesc:
         "Projection-based learning approach for high-efficiency photonic crystal simulations; conference publication + presentation.",
@@ -195,7 +195,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/projectPlaceholder.png"),
+      image: require("./assets/images/particleThumb.png"),
       projectName: "nEXO: SiPM PDE Studies in Liquid Xenon",
       projectDesc:
         "Data analysis pipeline and experimental characterization; presented results at APS April 2024.",
