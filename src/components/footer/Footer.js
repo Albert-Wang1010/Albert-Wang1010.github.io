@@ -1,9 +1,20 @@
-//import React, {useContext} from "react";
+import React from "react";
 import "./Footer.scss";
-//import {Fade} from "react-reveal";
-//import emoji from "react-easy-emoji";
-//import StyleContext from "../../contexts/StyleContext";
 
 export default function Footer() {
-  return null;
+  return (
+    <div className="footer-div">
+      <p className="footer-text">
+        &copy; {new Date().getFullYear()} Albert Wang | Powered by{" "}
+        <a
+          href="https://github.com/saadpasta/developerFolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link"
+        >
+          developerFolio
+        </a>
+      </p>
+    </div>
+  );
 }
