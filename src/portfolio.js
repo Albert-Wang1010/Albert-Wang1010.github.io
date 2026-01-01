@@ -276,6 +276,7 @@ const twitterDetails = {
 
 const isHireable = true;
 
+
 export {
   illustration,
   greeting,
