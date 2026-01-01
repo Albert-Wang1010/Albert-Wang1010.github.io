@@ -166,7 +166,7 @@ const bigProjects = {
       projectName: "Analog OTA Sizing + Stability Validation",
       projectDesc:
         "Spec-driven OTA sizing with simulation-based validation (gain/UGB/phase margin/power/load). Includes key plots + design notes.",
-      footerLink: [{name: "Report (PDF)", url: "test"}]
+      footerLink: [{name: "Report (PDF)", url: "PASTE_LINK_HERE"}]
     },
     {
       image: require("./assets/images/waveformThumb.png"),
