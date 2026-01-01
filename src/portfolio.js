@@ -174,7 +174,7 @@ const bigProjects = {
       projectDesc:
         "Designed and verified a FIR filter in Verilog with testbench; synthesized and optimized for timing/resource utilization.",
       footerLink: [
-        {name: "GitHub Repo", url: "PASTE_LINK_HERE"},
+        {name: "GitHub Repo", url: "https://github.com/Albert-Wang1010/ALD_FIR_CORE.git"},
         {name: "Report (PDF)", url: "/files/ALD_Final_Proj.pdf"}
       ]
     },
