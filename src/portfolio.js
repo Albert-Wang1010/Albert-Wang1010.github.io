@@ -157,8 +157,8 @@ const bigProjects = {
       projectDesc:
         "Full-custom 65nm microprocessor with transistor-level design of ALU, shifter, PLA, SRAM, and bus architecture. Complete layout verified with DRC/LVS and post-extraction simulation.",
       footerLink: [
-        {name: "GitHub Repo", url: "PASTE_LINK_HERE"},
-        {name: "Report (PDF)", url: "PASTE_LINK_HERE"}
+        {name: "GitHub Repo", url: "https://github.com/Albert-Wang1010/vlsi-microprocessor"},
+        {name: "Report (PDF)", url: "/files/VLSI_Final_Proj.pdf"}
       ]
     },
     {
