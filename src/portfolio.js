@@ -168,7 +168,7 @@ const bigProjects = {
         "Spec-driven OTA sizing with simulation-based validation (gain/UGB/phase margin/power/load). Includes key plots + design notes.",
       footerLink: [
         {name: "GitHub Repo", url: "https://github.com/Albert-Wang1010/ota-design.git"},
-        {name: "Report (PDF)", url: "/files/Analog_Final_Proj"}]
+        {name: "Report (PDF)", url: "/files/Analog_Final_Proj.pdf"}]
     },
     {
       image: require("./assets/images/waveformThumb.png"),
