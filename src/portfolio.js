@@ -157,7 +157,7 @@ const bigProjects = {
       projectDesc:
         "Full-custom 65nm microprocessor with transistor-level design of ALU, shifter, PLA, SRAM, and bus architecture. Complete layout verified with DRC/LVS and post-extraction simulation.",
       footerLink: [
-        {name: "GitHub Repo", url: "https://github.com/Albert-Wang1010/vlsi-microprocessor"},
+        {name: "GitHub Repo", url: "https://github.com/Albert-Wang1010/vlsi-microprocessor.git"},
         {name: "Report (PDF)", url: "/files/VLSI_Final_Proj.pdf"}
       ]
     },
@@ -166,7 +166,9 @@ const bigProjects = {
       projectName: "Analog OTA Sizing + Stability Validation",
       projectDesc:
         "Spec-driven OTA sizing with simulation-based validation (gain/UGB/phase margin/power/load). Includes key plots + design notes.",
-      footerLink: [{name: "Report (PDF)", url: "PASTE_LINK_HERE"}]
+      footerLink: [
+        {name: "GitHub Repo", url: "https://github.com/Albert-Wang1010/ota-design.git"},
+        {name: "Report (PDF)", url: "/files/Analog_Final_Proj"}]
     },
     {
       image: require("./assets/images/waveformThumb.png"),
