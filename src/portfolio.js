@@ -20,7 +20,7 @@ const greeting = {
   username: "Albert Wang",
   title: "Hi, I'm Albert",
   subTitle: emoji(
-    "I'm an MS EE student at Stanford specializing in integrated circuits. My focus is analog and mixed-signal IC design — from full-custom VLSI and op-amp design to RF front-ends and embedded systems. Previously at Columbia EE and eMemory Technology."
+    "I'm an MS EE student at Stanford specializing in integrated circuits. My focus is analog and mixed-signal IC design — from full-custom VLSI and op-amp design to RF front-ends. Previously at Columbia EE."
   ),
   // Use a local resume (recommended): put PDF at src/containers/greeting/resume/resume.pdf
   resumeLink: "", // leave empty to use the built-in Resume section button
