@@ -77,11 +77,20 @@ const educationInfo = {
   display: true,
   schools: [
     {
+      schoolName: "Stanford University",
+      // Replace with your own logo file or remove line
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "M.S. in Electrical Engineering",
+      duration: "Stanford, CA • September 2026 – February 2028",
+      desc: "Focus on mixed-signal IC design.",
+      descBullets: []
+    },
+    {
       schoolName: "Columbia University",
       // Replace with your own logo file or remove line
       logo: require("./assets/images/columbiaLogo.png"),
       subHeader: "B.S. in Electrical Engineering",
-      duration: "New York, NY • Aug 2024 – May 2026",
+      duration: "New York, NY • August 2024 – May 2026",
       desc: "Focus on analog circuits, VLSI, and digital logic design / Dean's List.",
       descBullets: []
     },
@@ -89,7 +98,7 @@ const educationInfo = {
       schoolName: "Bates College",
       logo: require("./assets/images/batesLogo.png"),
       subHeader: "B.A. in Physics, Minor: Philosophy",
-      duration: "Lewiston, Maine • Aug. 2021 – May 2024",
+      duration: "Lewiston, Maine • August 2021 – May 2024",
       desc: "Magna Cum Laude / Dean’s List.",
       descBullets: []
     }
