@@ -20,7 +20,7 @@ const greeting = {
   username: "Albert Wang",
   title: "Hi, I'm Albert",
   subTitle: emoji(
-    "I'm currently a senior studying electrical engineering at Columbia University. I design full-custom VLSI (schematic and layout), develop analog circuits, and build RTL with verification. I previously conducted research in photonics and particle detector systems."
+    "I'm an MS EE student at Stanford specializing in integrated circuits. My focus is analog and mixed-signal IC design — from full-custom VLSI and op-amp design to RF front-ends. Previously at Columbia EE."
   ),
   // Use a local resume (recommended): put PDF at src/containers/greeting/resume/resume.pdf
   resumeLink: "", // leave empty to use the built-in Resume section button
@@ -78,11 +78,20 @@ const educationInfo = {
   display: true,
   schools: [
     {
+      schoolName: "Stanford University",
+      // Replace with your own logo file or remove line
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "M.S. in Electrical Engineering",
+      duration: "Stanford, CA • September 2026 – February 2028",
+      desc: "Focus on mixed-signal IC design.",
+      descBullets: []
+    },
+    {
       schoolName: "Columbia University",
       // Replace with your own logo file or remove line
       logo: require("./assets/images/columbiaLogo.png"),
       subHeader: "B.S. in Electrical Engineering",
-      duration: "New York, NY • Aug 2024 – May 2026",
+      duration: "New York, NY • August 2024 – May 2026",
       desc: "Focus on analog circuits, VLSI, and digital logic design / Dean's List.",
       descBullets: []
     },
@@ -90,7 +99,7 @@ const educationInfo = {
       schoolName: "Bates College",
       logo: require("./assets/images/batesLogo.png"),
       subHeader: "B.A. in Physics, Minor: Philosophy",
-      duration: "Lewiston, Maine • Aug. 2021 – May 2024",
+      duration: "Lewiston, Maine • August 2021 – May 2024",
       desc: "Magna Cum Laude / Dean’s List.",
       descBullets: []
     }
