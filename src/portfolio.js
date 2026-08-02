@@ -31,7 +31,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Albert-Wang1010",
   linkedin: "https://www.linkedin.com/in/albert-wang1",
-  gmail: "aw3741@columbia.edu",
+  gmail: "aw3741@stanford.edu",
   // turn off unused
   gitlab: "",
   facebook: "",
@@ -64,6 +64,7 @@ const skillsSection = {
   softwareSkills: [
     {skillName: "Cadence Virtuoso", fontAwesomeClassname: "fas fa-microchip"},
     {skillName: "Verilog / SystemVerilog", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "Altium", fontAwesomeClassname: "fas fa-circle-nodes"},
     {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
     {skillName: "MATLAB", fontAwesomeClassname: "fas fa-square-root-alt"},
     {skillName: "Git / GitHub", fontAwesomeClassname: "fab fa-github"},
@@ -171,6 +172,13 @@ const bigProjects = {
         {name: "Report (PDF)", url: "/files/Analog_Final_Proj.pdf"}]
     },
     {
+      image: require("./assets/images/clacsLogo.png"),
+      projectName: "C.L.A.C.S Smart Pen — Senior Capstone",
+      projectDesc:
+        "Custom STM32WB55 smart pen: Altium PCB with LiPo/USB-C charging, SMD assembly, and C firmware streaming IMU data over USB-CDC/BLE.",
+      footerLink: [{name: "Binder (PDF)", url: "/files/CLACS_binder.pdf"}]
+    },
+    {
       image: require("./assets/images/waveformThumb.png"),
       projectName: "FIR Filter Core (Verilog) + Synthesis",
       projectDesc:
@@ -267,7 +275,7 @@ const contactInfo = {
   subtitle:
     "Want to chat about internships, design projects, or research? Email works best.",
   number: "",
-  email_address: "aw3741@columbia.edu"
+  email_address: "aw3741@stanford.edu"
 };
 
 // Twitter Section (disable)
