@@ -29,3 +29,5 @@ public/files/ALD_Final_Proj.pdf
 
 # Ignore PDF files in public/files
 public/files/*.pdf
+public/files/Resume.pdf
+public/files/VLSI_Final_Proj.pdf
