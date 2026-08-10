@@ -181,6 +181,13 @@ const bigProjects = {
         {name: "Report (PDF)", url: "/files/Analog_Final_Proj.pdf"}]
     },
     {
+  image: require("./assets/images/amTxThumb.png"),
+  projectName: "Class D AM Transmitter",
+  projectDesc:
+    "Class D AM transmitter (1 MHz RF) on a single 6V supply: RF buffer, switching pair, and series-LC tank sized to FCC Part 15 limits.",
+  footerLink: [{name: "Report (PDF)", url: "/files/Comm_Circuits_Final_Proj.pdf"}]
+    },
+    {
       image: require("./assets/images/clacsLogo.png"),
       projectName: "C.L.A.C.S Smart Pen — Senior Capstone",
       projectDesc:
