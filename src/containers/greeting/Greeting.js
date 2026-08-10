@@ -45,6 +45,11 @@ export default function Greeting() {
                   href="/files/Resume.pdf"
                   newTab={true}
                 />
+                <Button
+                  text="Project one-pager"
+                  href="/files/Albert_Wang_Portfolio.pdf"
+                  newTab={true}
+                />
               </div>
             </div>
           </div>
