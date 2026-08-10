@@ -64,7 +64,7 @@ const skillsSection = {
   softwareSkills: [
     {skillName: "Cadence Virtuoso", fontAwesomeClassname: "fas fa-microchip"},
     {skillName: "Verilog / SystemVerilog", fontAwesomeClassname: "fas fa-code"},
-    {skillName: "Altium", fontAwesomeClassname: "fas fa-circle-nodes"},
+    {skillName: "Altium", fontAwesomeClassname: "fas fa-square-a"},
     {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
     {skillName: "MATLAB", fontAwesomeClassname: "fas fa-square-root-alt"},
     {skillName: "Git / GitHub", fontAwesomeClassname: "fab fa-github"},
