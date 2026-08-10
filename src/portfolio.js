@@ -186,7 +186,7 @@ const bigProjects = {
       projectDesc:
         "Class D AM transmitter (1 MHz RF) on a single 6V supply: RF buffer, switching pair, and series-LC tank sized to FCC Part 15 limits.",
       footerLink: [
-        {name: "GitHub Repo", url: "https://github.com/Albert-Wang1010/comm_circuits_pro.git"},
+        {name: "GitHub Repo", url: "https://github.com/Albert-Wang1010/comm-circuits-proj.git"},
         {name: "Report (PDF)", url: "/files/Comm_Circuits_Final_Proj.pdf"}]
     },
     {
